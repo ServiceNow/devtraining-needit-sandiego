@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-03 23:39:46</sys_created_on>
+        <sys_id>d471df41074e01109459fa9e7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_d471df41074e01109459fa9e7c1ed064</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-03 23:39:46</sys_updated_on>
+        <title><![CDATA[<p style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" title="" src="sys_attachment.do?sys_id&#61;7fb19741074e01109459fa9e7c1ed083" alt="" width="100" height="100" align="baseline" border="" hspace="" vspace="" /><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </em></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d471df41074e01109459fa9e7c1ed064"/>
+</record_update>

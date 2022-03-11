@@ -14,7 +14,7 @@
         <label>NeedIt</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_58872_needit_needit</name>
-        <number_ref display_value="">0bdb10c9074201109459fa9e7c1ed013</number_ref>
+        <number_ref display_value="NI">0bdb10c9074201109459fa9e7c1ed013</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

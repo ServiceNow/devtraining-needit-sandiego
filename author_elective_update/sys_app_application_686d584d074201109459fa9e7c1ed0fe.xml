@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-03 10:31:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>686d584d074201109459fa9e7c1ed0fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_686d584d074201109459fa9e7c1ed0fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-03 10:31:34</sys_updated_on>
+        <title>Create New</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c15ca9f0db2b7204536ad5b0cf961912</instance_id>
+        <instance_name>dev39484</instance_name>
+        <name>sys_app_application_686d584d074201109459fa9e7c1ed0fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-03 10:31:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>686d584d074201109459fa9e7c1ed0fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_application_686d584d074201109459fa9e7c1ed0fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-03 10:31:34</sys_updated_on><title>Create New</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1294360507</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>6a8a18c5074201109459fa9e7c1ed0e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-03 10:31:34</sys_created_on>
+        <sys_id>ed8dd84d074201109459fa9e7c1ed0f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f4f55bfd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-03 10:31:34</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>298dd84d93420110fbc8e563f5ec1ef1</update_guid>
+        <update_guid_history>298dd84d93420110fbc8e563f5ec1ef1:-1294360507</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">d6f2a405078201109459fa9e7c1ed016</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-03 10:55:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>173e63b3d61c403882e20bfa28468a40</sys_id>
+        <sys_metadata>686d584d074201109459fa9e7c1ed0fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_application_686d584d074201109459fa9e7c1ed0fe</sys_update_name>
+        <sys_update_version display_value="sys_app_application_686d584d074201109459fa9e7c1ed0fe">ed8dd84d074201109459fa9e7c1ed0f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-03 10:55:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

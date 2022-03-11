@@ -38,23 +38,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_needit" sys_domain="global" view="Default view">5941945d0fe83200cd674f8ce1050e95</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-03 11:25:28</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-03-11 19:49:52</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>750ae7ab074601109459fa9e7c1ed07f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_58872_needit_needit" sys_domain="global" view="Default view">47d9a0c9078201109459fa9e7c1ed0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-11 19:49:52</sys_updated_on>
+            <sys_updated_on>2022-03-03 11:25:28</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_needit</name>

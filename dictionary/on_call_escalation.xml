@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="On-Call Escalation" max_length="40" name="on_call_escalation" sizeclass="0" type="collection">
+        <element choice="1" hint="Used for defining Breakdown source on number values" label="Number List" max_length="40" name="pa_number_list" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="12" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="13" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="14" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="15" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="16" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="17" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="18" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="19" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="20" value="20"/>
+            </choice>
+        </element>
+    </element>
+</database>

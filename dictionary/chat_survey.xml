@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Chat Survey" max_length="40" name="chat_survey" sizeclass="0" type="collection">
+        <element default="true" hint="Determines whether the Connect Survey is active" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" hint="Field that stores associated Chat Queue" label="Chat queue" max_length="32" name="chat_queue" reference="chat_queue" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" hint="A description of the condition" label="Description" max_length="160" name="description" type="string"/>
+        <element attributes="encode_utf8=false" hint="Field that stores associated Interaction Queue" label="Interaction queue" max_length="32" name="interaction_queue" reference="interaction_queue" type="reference"/>
+        <element attributes="encode_utf8=false" hint="Survey used to send to the users" label="Survey" mandatory="true" max_length="32" name="survey" reference="asmt_metric_type" reference_qual="evaluation_method=survey" type="reference"/>
+        <element default="global" label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element choice="3" hint="Type of the conversation" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Connect" sequence="1" value="connect"/>
+                <element inactive_on_update="false" label="Interaction" sequence="2" value="interaction"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="interaction_queue"/>
+        </index>
+        <index name="index2">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index3">
+            <element name="survey"/>
+        </index>
+        <index name="index4">
+            <element name="chat_queue"/>
+        </index>
+    </element>
+</database>

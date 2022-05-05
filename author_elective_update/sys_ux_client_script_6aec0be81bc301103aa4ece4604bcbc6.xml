@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="knowledge_view">8f0d88c01b8301103aa4ece4604bcbb1</macroponent>
+        <name>knowledge_article_articleDetails</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  //@data.get_kb_article.result.text.value
+
+//return @param.get_kb_article.result.text.value;
+
+	return '{"articleHTML":"<h2>Getting Around in Windows</h2> <h3>Windows 8.x</h3> <p>Windows 8.x is designed for using touch, mouse, and keyboard together, on hardware ranging from touch-enabled tablets and laptops to PCs and all-in-one computers, including those without touch capability.</p>","articleSysId":"471ee81eff6002009b20ffffffffff34","templateFieldData":[],"articleInfo":{"author":"System Administrator","displayAttachments":false,"kbCategory":"Java","workflowState":"published","kbKnowledgeBase":"IT","number":"KB0000032","shortDescription":"Getting Around in Windows","sysId":"471ee81eff6002009b20ffffffffff34","sysUpdatedOn":"2015-06-11 17:10:53","sysViewCount":7,"rating":5,"revisedBy":null,"baseVersion":null,"isExpired":false}}';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 03:03:42</sys_created_on>
+        <sys_id>6aec0be81bc301103aa4ece4604bcbc6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>knowledge_article_articleDetails</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_6aec0be81bc301103aa4ece4604bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 03:03:46</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>61d0be41dbc4f010e26fd7c8f4961955</instance_id>
+        <instance_name>dev114673</instance_name>
+        <name>sys_ux_client_script_6aec0be81bc301103aa4ece4604bcbc6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="knowledge_view"&gt;8f0d88c01b8301103aa4ece4604bcbb1&lt;/macroponent&gt;&lt;name&gt;knowledge_article_articleDetails&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  //@data.get_kb_article.result.text.value
+
+//return @param.get_kb_article.result.text.value;
+
+	return '{"articleHTML":"&lt;h2&gt;Getting Around in Windows&lt;/h2&gt; &lt;h3&gt;Windows 8.x&lt;/h3&gt; &lt;p&gt;Windows 8.x is designed for using touch, mouse, and keyboard together, on hardware ranging from touch-enabled tablets and laptops to PCs and all-in-one computers, including those without touch capability.&lt;/p&gt;","articleSysId":"471ee81eff6002009b20ffffffffff34","templateFieldData":[],"articleInfo":{"author":"System Administrator","displayAttachments":false,"kbCategory":"Java","workflowState":"published","kbKnowledgeBase":"IT","number":"KB0000032","shortDescription":"Getting Around in Windows","sysId":"471ee81eff6002009b20ffffffffff34","sysUpdatedOn":"2015-06-11 17:10:53","sysViewCount":7,"rating":5,"revisedBy":null,"baseVersion":null,"isExpired":false}}';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-21 03:03:42&lt;/sys_created_on&gt;&lt;sys_id&gt;6aec0be81bc301103aa4ece4604bcbc6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;knowledge_article_articleDetails&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_6aec0be81bc301103aa4ece4604bcbc6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-21 03:03:46&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1422246459</payload_hash>
+        <record_name>knowledge_article_articleDetails</record_name>
+        <reverted_from/>
+        <source>c24e0a0e1b3601103aa4ece4604bcbed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 03:03:46</sys_created_on>
+        <sys_id>3bec472c1bc301103aa4ece4604bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804a1365b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 03:03:46</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>ffec472c6bc30110e04d552e7707261f</update_guid>
+        <update_guid_history>ffec472c6bc30110e04d552e7707261f:1422246459,66ec072c5ac30110973e3fddf32f1380:1451746261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 03:10:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>ae112c94211042ac91677a618687d964</sys_id>
+        <sys_metadata>6aec0be81bc301103aa4ece4604bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>knowledge_article_articleDetails</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6aec0be81bc301103aa4ece4604bcbc6</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6aec0be81bc301103aa4ece4604bcbc6">3bec472c1bc301103aa4ece4604bcb20</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 03:10:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

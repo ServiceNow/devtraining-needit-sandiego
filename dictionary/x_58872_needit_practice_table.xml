@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Practice table" max_length="40" name="x_58872_needit_practice_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Needed by" max_length="40" name="u_needed_by" type="glide_date"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="u_priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Need Soon" sequence="1" value="need soon"/>
+                <element inactive_on_update="false" label="Not Important" sequence="2" value="not important"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="u_string_5" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Verify data" max_length="40" name="verify_data" read_only="true" type="string"/>
+    </element>
+</database>

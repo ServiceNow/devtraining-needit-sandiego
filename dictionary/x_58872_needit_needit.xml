@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
+        <element label="New field 2" max_length="40" name="new_field_2" type="integer"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" default="Legal" label="Requested Type" mandatory="true" max_length="40" name="requested_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" value="Facilities"/>
+                <element inactive_on_update="false" label="Human Resources" value="Human Resources"/>
+                <element inactive_on_update="false" label="Legal" value="Legal"/>
+                <element inactive_on_update="false" label="Your Departmental Choice" value="Your Departmental Choice"/>
+            </choice>
+        </element>
+        <element choice="1" default="Legal 1      [legal1]" label="What Needed" mandatory="true" max_length="40" name="what_needed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities 1" value="Facilities 1"/>
+                <element inactive_on_update="false" label="Facilities 2" value="Facilities 2"/>
+                <element inactive_on_update="false" label="Human Resources 1" value="Human Resources 1"/>
+                <element inactive_on_update="false" label="Human Resources 2" value="Human Resources 2"/>
+                <element inactive_on_update="false" label="Legal 1      [legal1]" value="Legal 1      [legal1]"/>
+                <element inactive_on_update="false" label="Legal 2      [legal2]" value="Legal 2      [legal2]"/>
+                <element inactive_on_update="false" label="Your Department Choice 1" value="Your Department Choice 1"/>
+                <element inactive_on_update="false" label="Your Department Choice 2" value="Your Department Choice 2"/>
+            </choice>
+        </element>
+        <element label="When needed" max_length="40" name="when_needed" type="glide_date_time"/>
+    </element>
+</database>

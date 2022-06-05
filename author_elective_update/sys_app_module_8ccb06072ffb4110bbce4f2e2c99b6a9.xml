@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">b651cacb2fbb4110bbce4f2e2c99b65a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>gvhjj</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_58872_needit_needit</name>
+        <order>444</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-04 23:31:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ccb06072ffb4110bbce4f2e2c99b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gvhjj</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_8ccb06072ffb4110bbce4f2e2c99b6a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-04 23:31:52</sys_updated_on>
+        <timeline_page/>
+        <title>gvhjj</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40cbace3dba7d7c87e55d5b0cf9619d4</instance_id>
+        <instance_name>dev68403</instance_name>
+        <name>sys_app_module_8ccb06072ffb4110bbce4f2e2c99b6a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NeedIt">b651cacb2fbb4110bbce4f2e2c99b65a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>gvhjj</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_58872_needit_needit</name><order>444</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-04 23:31:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8ccb06072ffb4110bbce4f2e2c99b6a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gvhjj</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_module_8ccb06072ffb4110bbce4f2e2c99b6a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-04 23:31:52</sys_updated_on><timeline_page/><title>gvhjj</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>990887477</payload_hash>
+        <record_name>gvhjj</record_name>
+        <reverted_from/>
+        <source>9f8ef9c72fbb4110bbce4f2e2c99b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-04 23:31:52</sys_created_on>
+        <sys_id>66fbc6472ffb4110bbce4f2e2c99b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181310f90040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-04 23:31:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>aefbc647c9fb4110f60d05de2de9b24e</update_guid>
+        <update_guid_history>aefbc647c9fb4110f60d05de2de9b24e:990887477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="gvhjj">f9719b432fff4110bbce4f2e2c99b603</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-05 04:35:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6547940ef2454164affd96c25d13e3f9</sys_id>
+        <sys_metadata>8ccb06072ffb4110bbce4f2e2c99b6a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gvhjj</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_module_8ccb06072ffb4110bbce4f2e2c99b6a9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8ccb06072ffb4110bbce4f2e2c99b6a9">66fbc6472ffb4110bbce4f2e2c99b64f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-05 04:35:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

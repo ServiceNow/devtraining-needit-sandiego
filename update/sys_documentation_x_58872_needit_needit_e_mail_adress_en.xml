@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="e_mail_adress" label="e_mail" language="en" table="x_58872_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>e_mail_adress</element>
+            <help/>
+            <hint/>
+            <label>e_mail</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <plural>e_mails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-08 09:01:51</sys_created_on>
+            <sys_id>553b6f88870491108c95a97e0ebb35c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>e_mail</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_needit_e_mail_adress_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-08 09:01:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

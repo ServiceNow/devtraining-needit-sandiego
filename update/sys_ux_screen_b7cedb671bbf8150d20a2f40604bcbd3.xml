@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Template">7bcedb671bbf8150d20a2f40604bcbd1</macroponent>
+        <macroponent_config>{
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "fields" : "@data.gform.nowRecordFormBlob.fields",
+  "propagateNotifications" : "true",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "headingOnlyVisibleToScreenReaders" : false,
+  "interceptNotifications" : false,
+  "refreshRequested" : 0
+}</macroponent_config>
+        <name>Template default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">a8ce5b671bbf8150d20a2f40604bcb34</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>parent.table!=sn_cmdb_ws_group_query_metadata</screen_condition>
+        <screen_type display_value="Record default Template">bbcedb671bbf8150d20a2f40604bcbc4</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 18:50:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b7cedb671bbf8150d20a2f40604bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_b7cedb671bbf8150d20a2f40604bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 18:50:43</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="NeedIt Experience">f30d66941b0d0510b81fdce7cc4bcb52</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "aaddzddhptjbhhddckfsmyrmqaalfii",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_uib_base_aw.RECORD#RELATED_LIST_REFRESH_REQUESTED",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_uib_base_aw.RECORD#RELATED_LIST_REFRESH_REQUESTED",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uib_base_aw.RECORD#RELATED_LIST_REFRESH_REQUESTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "relatedListName" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "relatedListName" ]
+            }
+          }
+        }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "dyddhhhddgckfsmynggtuiirmkaaaadgggii",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Taxonomy Topic Selection">acde1f671bbf8150d20a2f40604bcbc4</macroponent>
+        <macroponent_config>{
+  "sysId" : "@context.props.sys_id",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "headingOnlyVisibleToScreenReaders" : false,
+  "sysid" : ""
+}</macroponent_config>
+        <name>Taxonomy Topic Selection Screen</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">a8ce5b671bbf8150d20a2f40604bcb34</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record default Taxonomy Topic Selection Modal">20de1f671bbf8150d20a2f40604bcbb8</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 18:50:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2cde1f671bbf8150d20a2f40604bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Taxonomy Topic Selection Screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_2cde1f671bbf8150d20a2f40604bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 18:50:47</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

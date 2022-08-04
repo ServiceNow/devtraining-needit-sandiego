@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">620fe892974511105698bde3f153aff2</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Create a new NeedIt record.</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_58872_needit_needit</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_58872_needit.needit_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 12:33:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6994b8d6974511105698bde3f153af93</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_6994b8d6974511105698bde3f153af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 12:36:38</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name>New</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8baf3516db5284904d2bac44d4961943</instance_id>
+        <instance_name>dev96864</instance_name>
+        <name>sys_app_module_6994b8d6974511105698bde3f153af93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NeedIt">620fe892974511105698bde3f153aff2</application><assessment/><device_type/><filter/><hint>Create a new NeedIt record.</hint><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_58872_needit_needit</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_58872_needit.needit_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-03 12:33:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6994b8d6974511105698bde3f153af93</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_module_6994b8d6974511105698bde3f153af93</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-03 12:36:38</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name>New</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>628117672</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>efd844de978111105698bde3f153af9b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 12:36:38</sys_created_on>
+        <sys_id>dd65f81a974511105698bde3f153af61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18263b53dde0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 12:36:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d565309600451110008c96a84d75aaa0</update_guid>
+        <update_guid_history>d565309600451110008c96a84d75aaa0:628117672,0555f41a814511102998c3b0fd238ef5:-107262449,4c35f01a4b4511107ef68bfdc4d62900:628117672,6bf4b8d6f2451110bd8ee7e052fffc9c:1693376583,9dc4301ad745111045217640355c7e5b:1901700549</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">b7857c1a974511105698bde3f153af8d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 12:37:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2598be73e10b4b19b63bf4b767fc5079</sys_id>
+        <sys_metadata>6994b8d6974511105698bde3f153af93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_module_6994b8d6974511105698bde3f153af93</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6994b8d6974511105698bde3f153af93">dd65f81a974511105698bde3f153af61</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 12:37:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="17" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="18" type="collection">
         <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Other" max_length="32" name="u_other" reference="x_58872_needit_needit" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
@@ -13,9 +13,10 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal 1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal 1" label="What needed" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Other" sequence="0" value="Other"/>
                 <element inactive_on_update="false" label="Human Resources 2" sequence="1" value="hr2"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities 1"/>
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities 2"/>
@@ -25,5 +26,6 @@
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice2"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
     </element>
 </database>

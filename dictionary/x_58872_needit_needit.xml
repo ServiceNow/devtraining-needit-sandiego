@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="needit" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="leg" label="type" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="hr" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="fac" sequence="1" value="fac"/>
+                <element inactive_on_update="false" label="leg" sequence="2" value="leg"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="leg1" label="whatneed" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="hr1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="hr2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="fac1" sequence="2" value="fac1"/>
+                <element inactive_on_update="false" label="fac2" sequence="3" value="fac2"/>
+                <element inactive_on_update="false" label="leg1" sequence="4" value="leg1"/>
+                <element inactive_on_update="false" label="leg2" sequence="5" value="leg2"/>
+                <element inactive_on_update="false" label="dept1" sequence="6" value="dept1"/>
+                <element inactive_on_update="false" label="dept2" sequence="7" value="dept2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="user" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+    </element>
+</database>

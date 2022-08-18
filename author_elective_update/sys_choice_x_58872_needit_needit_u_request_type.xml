@@ -40,6 +40,26 @@
             <dependent_value/>
             <element>u_request_type</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-17 08:01:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81bcffa22f955d10f0c32aa62799b6e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-18 11:05:45</sys_updated_on>
+            <value>your_choice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Facilities</label>
             <language>en</language>
@@ -81,20 +101,20 @@
             <element>u_request_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Your Department Choice</label>
+            <label>IT</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-08-17 08:01:35</sys_created_on>
+            <sys_created_on>2022-08-18 11:05:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>81bcffa22f955d10f0c32aa62799b6e7</sys_id>
+            <sys_id>e07071472f9d1110f0c32aa62799b673</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-17 08:01:35</sys_updated_on>
-            <value>your_choice</value>
+            <sys_updated_on>2022-08-18 11:05:45</sys_updated_on>
+            <value>it</value>
         </sys_choice>
     </sys_choice>
 </record_update>

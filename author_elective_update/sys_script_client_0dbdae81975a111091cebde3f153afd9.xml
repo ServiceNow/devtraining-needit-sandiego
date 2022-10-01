@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Needit Welcome User</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage('Welcome! '+g_user.firstName +" "+ g_user.lastName+"!");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 03:34:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0dbdae81975a111091cebde3f153afd9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Needit Welcome User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_0dbdae81975a111091cebde3f153afd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 03:52:16</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d0559b28dbeffec07d8cf22ebf9619ef</instance_id>
+        <instance_name>dev39417</instance_name>
+        <name>sys_script_client_0dbdae81975a111091cebde3f153afd9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Needit Welcome User&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage('Welcome! '+g_user.firstName +" "+ g_user.lastName+"!");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-01 03:34:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0dbdae81975a111091cebde3f153afd9&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Needit Welcome User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0dbdae81975a111091cebde3f153afd9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-01 03:52:16&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-40977347</payload_hash>
+        <record_name>Needit Welcome User</record_name>
+        <reverted_from/>
+        <source>d33da241975a111091cebde3f153af6d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 03:52:16</sys_created_on>
+        <sys_id>23237609975a111091cebde3f153af1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18391ac607f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 03:52:16</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2b2376095a5a1110a21b43553bb3f31b</update_guid>
+        <update_guid_history>2b2376095a5a1110a21b43553bb3f31b:-40977347,0f13ba09e75a1110a9f2615f237d7f87:-140035579,23033609c05a11102437c485d9dd6590:562063678,60033a09745a11109e1644f100be5cd0:393105575,bbd23209af5a1110c90935fd546ad6d6:1634947814,1cd27209a65a11102eb1e0f735bfb7ce:-1598382732,66a27209905a1110e3db653eda1c2e86:2099272058,fe923209d35a1110b3f2257a0dbea444:1433865366,9b12b6c5555a1110ec43e52a92988469:-955114805,74f132c5575a1110820b30f8f17e9673:-1200127811,78b1fe859d5a11108feee3f60925d1ac:-215293038,1fa1fe85f65a1110dcde8442d9475ee7:204514081,5891fa85c45a11100f2d54f3d23156c1:680935033,68617285e15a1110577ba77c8cbb935a:-1525855648,e890f645d95a1110cd2523bf05488618:-1504250958,988fae05fb5a111009598c95ffa00120:-2119596875,982fa605ca5a111017467847927e02c9:-181426196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 03:52:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6043ab2a380841fea8014b9d3aef2844</sys_id>
+        <sys_metadata>0dbdae81975a111091cebde3f153afd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Welcome User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">eb8d2a81975a111091cebde3f153af33</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_0dbdae81975a111091cebde3f153afd9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0dbdae81975a111091cebde3f153afd9">23237609975a111091cebde3f153af1c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 03:52:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
